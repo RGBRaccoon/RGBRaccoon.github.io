@@ -1,40 +1,43 @@
 # en:
 #   languageCode: en-us
+# baseURL: "https://rgbraccoon.github.io/"
+# title: "Your Site Title"
+# defaultContentLanguage: ko
+# defaultContentLanguageInSubdir: true
 
+# languages:
 
-
-languages:
-  defaultContentLanguage: ko
-  defaultContentLanguageInSubdir: true
-
-  en:
-    languageName: "English"
-    languageCode: "en-us"
-    contentDir: "content/en"
-    weight: 1
-    # 기타 설정...
-  ko:
-    languageName: "한국어"
-    languageCode: "ko"
-    contentDir: "content/ko"
-    weight: 2
+#   en:
+#     languageName: "English"
+#     languageCode: "en-us"
+#     contentDir: "content/en"
+#     weight: 1
+#     # 기타 설정...
+#   ko:
+#     languageName: "한국어"
+#     languageCode: "ko"
+#     contentDir: "content/ko"
+#     weight: 2
     # 기타 설정...
 # Languages
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 # Default language
 
+en:
+  languageCode: en-us
+
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+ko:
+ languageCode: ko
+ contentDir: content/ko
+ title: 한글 사이트
+ params:
+   description: 한글 설명
+ menu:
+   main:
+     - name: 설명
+       url: '#about'
+       weight: 1
