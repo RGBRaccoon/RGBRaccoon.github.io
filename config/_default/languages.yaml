@@ -1,18 +1,23 @@
 # en:
 #   languageCode: en-us
 
-en:
-  languageName: "English"
-  languageCode: "en-us"
-  contentDir: "content/en"
-  weight: 1
-  # 기타 설정...
-ko:
-  languageName: "한국어"
-  languageCode: "ko"
-  contentDir: "content/ko"
-  weight: 2
-  # 기타 설정...
+defaultContentLanguage: ko
+defaultContentLanguageInSubdir: true
+
+languages:
+
+  en:
+    languageName: "English"
+    languageCode: "en-us"
+    contentDir: "content/en"
+    weight: 1
+    # 기타 설정...
+  ko:
+    languageName: "한국어"
+    languageCode: "ko"
+    contentDir: "content/ko"
+    weight: 2
+    # 기타 설정...
 # Languages
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
