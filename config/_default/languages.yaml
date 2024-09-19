@@ -1,10 +1,11 @@
 # en:
 #   languageCode: en-us
 
-defaultContentLanguage: ko
-defaultContentLanguageInSubdir: true
+
 
 languages:
+  defaultContentLanguage: ko
+  defaultContentLanguageInSubdir: true
 
   en:
     languageName: "English"
