@@ -1,31 +1,12 @@
-# Languages
-#   Create a section for each of your site's languages.
-#   Documentation: https://gohugo.io/content-management/multilingual/
-
-# Default language
-defaultContentLanguage: ko
-defaultContentLanguageInSubdir: true
-
-languages:
-  en:
-    languageCode: en-us
-    contentDir: content/en
-    title: "Your Site Title in English"
-    params:
-      description: "Your site description in English"
-    menu:
-      main:
-        - name: "Home"
-          url: '/'
-          weight: 1
-  ko:
-    languageCode: ko
-    contentDir: content/ko
-    title: "사이트 제목 (한국어)"
-    params:
-      description: "사이트 설명 (한국어)"
-    menu:
-      main:
-        - name: "홈"
-          url: '/'
-          weight: 2
+en:
+  languageName: "English"
+  languageCode: "en-us"
+  contentDir: "content/en"
+  weight: 1
+  # 기타 설정...
+ko:
+  languageName: "한국어"
+  languageCode: "ko"
+  contentDir: "content/ko"
+  weight: 2
+  # 기타 설정...
