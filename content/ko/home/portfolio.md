@@ -38,6 +38,8 @@ content:
       tag: CV
     - name: NLP
       tag: NLP
+    - name: 체크리스트
+      tag: CL
 
 design:
   columns: '1'
