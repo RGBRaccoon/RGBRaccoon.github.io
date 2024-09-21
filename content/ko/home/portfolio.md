@@ -29,7 +29,11 @@ content:
     - name: All
       tag: '*'
     - name: Machine Learning
-      tag: ML
+      tag: ML    
+    - name: 프로젝트
+      tag: PJ
+    - name: 정보 
+      tag: IF
     - name: Computer Vision
       tag: CV
     - name: NLP
