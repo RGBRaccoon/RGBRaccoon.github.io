@@ -1,10 +1,9 @@
 ---
-title: Cartoon Face Generator
+title: 지도 페이지
 summary: Write about your project here...
 tags:
   - MP
 date: 2022-01-01
-external_link: http://github.com
 ---
 
 
