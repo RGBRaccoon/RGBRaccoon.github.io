@@ -23,21 +23,20 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://docs.hugoblox.com/reference/language/
 # Default language
-
+ko:
+  languageCode: ko
+  contentDir: content/ko
+  title: Yeon-Ho Portfolio
+  params:
+    description: 한글 설명
+  menu:
+    main:
+      - name: 설명
+        url: '#about'
+        weight: 0
 en:
   languageCode: en-us
 
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
 # Uncomment the lines below to configure your website in a second language.
-ko:
- languageCode: ko
- contentDir: content/ko
- title: 한글 사이트
- params:
-   description: 한글 설명
- menu:
-   main:
-     - name: 설명
-       url: '#about'
-       weight: 1

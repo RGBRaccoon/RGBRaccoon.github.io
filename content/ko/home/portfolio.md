@@ -40,6 +40,8 @@ content:
       tag: NLP
     - name: 체크리스트
       tag: CL
+    - name: 지도
+      tag: MP
 
 design:
   columns: '1'
