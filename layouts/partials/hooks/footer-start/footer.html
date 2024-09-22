@@ -1,0 +1,59 @@
+<div class="footer-content">
+    <p>{{ replace .Site.Params.footer.copyright.notice "{year}" (now.Format "2006") }}</p>
+    {{ if .Site.Params.footer.copyright.license.enable }}
+      <p>Licensed under {{ if not .Site.Params.footer.copyright.license.allow_commercial }}Non-Commercial, {{ end }}
+      {{ if .Site.Params.footer.copyright.license.allow_derivatives }}Derivatives Allowed, {{ else }}No Derivatives, {{ end }}
+      {{ if .Site.Params.footer.copyright.license.share_alike }}Share Alike{{ end }}.</p>
+    {{ end }}
+  
+    <div class="contact-info">
+      <p>Email: <a href="mailto:{{ .Site.Params.footer.contact.email }}">{{ .Site.Params.footer.contact.email }}</a></p>
+      <p>Phone: {{ .Site.Params.footer.contact.phone }}</p>
+    </div>
+  
+    <div class="map">
+      <h4>Location</h4>
+      <div id="footer-map" style="height: 200px;"></div>
+    </div>
+  </div>
+  
+  <script>
+    var latitude = {{ .Site.Params.footer.map.latitude }};
+    var longitude = {{ .Site.Params.footer.map.longitude }};
+    var zoomLevel = {{ .Site.Params.footer.map.zoom }};
+  
+    var map = L.map('footer-map').setView([latitude, longitude], zoomLevel); 
+  
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+  
+    var marker = L.marker([latitude, longitude]).addTo(map)
+      .bindPopup('위치 정보')
+      .openPopup();
+  </script>
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  
+  <style>
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      text-align: left;
+    }
+  
+    .contact-info, .map {
+      flex: 1;
+      margin-right: 20px;
+    }
+  
+    .map #footer-map {
+      width: 100%;
+      height: 200px;
+    }
+  </style>
+  
