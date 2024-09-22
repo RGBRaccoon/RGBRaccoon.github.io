@@ -1,26 +1,23 @@
-<body>
-    <!-- ... 페이지의 다른 콘텐츠들 ... -->
-  
-    <div id="footer-map" style="height: 200px; width: 100%;"></div>
-  
-    <!-- Leaflet.js 지도 -->
-    <script>
-      var latitude = {{ .Site.Params.footer.map.latitude }};
-      var longitude = {{ .Site.Params.footer.map.longitude }};
-      var zoomLevel = {{ .Site.Params.footer.map.zoom }};
-  
-      var map = L.map('footer-map').setView([latitude, longitude], zoomLevel);
-  
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '© OpenStreetMap contributors'
-      }).addTo(map);
-  
-      var marker = L.marker([latitude, longitude]).addTo(map)
-        .bindPopup('서울입니다.')
-        .openPopup();
-    </script>
-  
-    <!-- Leaflet.js 라이브러리 -->
-    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  </body>
-  
+<!-- Leaflet.js 지도와 사이드바로 이동 -->
+<div id="sidebar-map" style="height: 200px; width: 100%;"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var latitude = 37.5665;
+    var longitude = 126.9780;
+    var zoomLevel = 13;
+
+    var map = L.map('sidebar-map').setView([latitude, longitude], zoomLevel);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    var marker = L.marker([latitude, longitude]).addTo(map)
+      .bindPopup('서울입니다.')
+      .openPopup();
+  });
+</script>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
