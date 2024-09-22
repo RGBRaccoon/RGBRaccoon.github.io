@@ -26,9 +26,7 @@
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: Yeon-Ho Portfolio
-  params:
-    description: 한글 설명
+
   menu:
     main:
       - name: 설명

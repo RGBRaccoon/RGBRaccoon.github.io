@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <header>
+    {{ partial "header.html" . }}
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ .Content }}{{ end }}
+  </main>
+
+  <footer>
+    {{ partial "components/footers/footer.html" . }} <!-- 선택한 Footer 파일 불러오기 -->
+  </footer>
+</body>
+</html>
