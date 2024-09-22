@@ -39,4 +39,9 @@ en:
 
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
+  menu:
+    main:
+      - name: 설명
+        url: '#about'
+        weight: 10
 # Uncomment the lines below to configure your website in a second language.
