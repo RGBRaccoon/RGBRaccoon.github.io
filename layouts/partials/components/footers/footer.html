@@ -2,7 +2,7 @@
     <div class="footer-content" style="display: flex; justify-content: space-around; align-items: flex-start; width: 100%; max-width: 1200px; margin: 0 auto; padding: 0; box-sizing: border-box;">
       <!-- 저작권 및 라이선스 정보 -->
       <div style="flex: 1; padding: 10px;">
-        <p>{{ replace .Site.Params.footer.copyright.notice "{year}" (now.Format "2006") }}</p>
+        <p>{{ replace .Site.Params.footer.copyright.notice "{year}" (now.Format "2024") }}</p>
         {{ if .Site.Params.footer.copyright.license.enable }}
           <p>Licensed under {{ if not .Site.Params.footer.copyright.license.allow_commercial }}Non-Commercial, {{ end }}
           {{ if .Site.Params.footer.copyright.license.allow_derivatives }}Derivatives Allowed, {{ else }}No Derivatives, {{ end }}
