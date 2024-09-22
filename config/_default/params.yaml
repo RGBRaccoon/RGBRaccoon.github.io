@@ -41,6 +41,10 @@ header:
     show_search: true
     highlight_active_link: false
 
+toc-end:
+  block: side
+
+
 footer:
   block: footer
   copyright:
