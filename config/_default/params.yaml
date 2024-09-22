@@ -52,6 +52,10 @@ footer:
   contact :
     email : 'chldusgh0497@gmail.com'
     phone : '010-2745-0497'
+  map:
+    latitude: 37.5665
+    longitude: 126.9780
+    zoom: 13
 
 
 
