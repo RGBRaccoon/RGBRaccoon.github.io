@@ -42,6 +42,7 @@ header:
     highlight_active_link: false
 
 footer:
+  block: footer
   copyright:
     notice: '© {year} Me. This work is licensed under {license}'
     license:
