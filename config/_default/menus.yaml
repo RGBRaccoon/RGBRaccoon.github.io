@@ -9,39 +9,39 @@ main:
     url: about
     weight: 100
 
-  # - name: Research
-  #   url: publication
-  #   weight: 300
-  # - parent: Research
-  #   name: Publications
-  #   url: publication
-  #   weight: 310
-  # - parent: Research
-  #   name: Research Fields
-  #   url: field
-  #   weight: 320
+  - name: Research
+    url: publication
+    weight: 300
+  - parent: Research
+    name: Publications
+    url: publication
+    weight: 310
+  - parent: Research
+    name: Research Fields
+    url: field
+    weight: 320
 
-  # - name: Projects
-  #   url: project
-  #   weight: 400
+  - name: Projects
+    url: project
+    weight: 400
 
-  # - name: Inform
-  #   url: post
-  #   weight: 600
-  # - parent: Inform
-  #   name: Notifications
-  #   url: notification
-  #   weight: 610
-  # - parent: Inform
-  #   name: News
-  #   url: post
-  #   weight: 620
-  # - parent: Inform
-  #   name: Event
-  #   url: event
-  #   weight: 630
+  - name: Inform
+    url: post
+    weight: 600
+  - parent: Inform
+    name: Notifications
+    url: notification
+    weight: 610
+  - parent: Inform
+    name: News
+    url: post
+    weight: 620
+  - parent: Inform
+    name: Event
+    url: event
+    weight: 630
 
 
-  # - name: Contact
-  #   url: contact
-  #   weight: 700
+  - name: Contact
+    url: contact
+    weight: 700

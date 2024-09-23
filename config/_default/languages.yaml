@@ -27,20 +27,11 @@ ko:
   languageCode: ko
   contentDir: content/ko
 
-  menu:
-    main:
-      - name: 설명
-        url: '#about'
-        weight: 0
 en:
   languageCode: en-us
 
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   contentDir: content/en
-  menu:
-    main:
-      - name: About
-        url: '#about'
-        weight: 10
+
       
 # Uncomment the lines below to configure your website in a second language.
