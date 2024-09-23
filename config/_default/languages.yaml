@@ -39,7 +39,8 @@ en:
   contentDir: content/en
   menu:
     main:
-      - name: 설명
+      - name: About
         url: '#about'
         weight: 10
+      
 # Uncomment the lines below to configure your website in a second language.
