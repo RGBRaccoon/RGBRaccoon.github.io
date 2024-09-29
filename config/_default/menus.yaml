@@ -27,8 +27,8 @@ main:
     url: about
     weight: 100
   - parent : me 
-    name : dummy
-    url : dummy
+    name : dummy1
+    url : dummy1
     weight: 110
 
   - name: research
@@ -38,8 +38,8 @@ main:
     url: stock_research
     weight: 210
   - parent: research 
-    name: dummy
-    url: dummy
+    name: dummy2
+    url: dummy2
     weight: 220
 
   - name: project
@@ -54,8 +54,8 @@ main:
     url: Stock
     weight: 320
   - parent: project
-    name: dummy
-    url: field
+    name: dummy3
+    url: dummy3
     weight: 330
 
   # - name: Projects
@@ -71,27 +71,27 @@ main:
     url: post
     weight: 600
   - parent: checkList
-    name: check list
-    url: work
+    name: check_list
+    url: project/check_list
     weight: 610
   - parent: checkList
-    name: dummy2
-    url: dummy2
+    name: dummy4
+    url: dummy4
     weight: 620
   - parent: checkList
-    name: dummy3
-    url: dummy2
+    name: dummy5
+    url: dummy5
     weight: 630
 
 
   - name: dummypage
-    url: dummy3
+    url: dummy6
     weight: 700
   - parent: dummypage
-    name: dummy3
-    url: dummy3
+    name: dummy7
+    url: dummy7
     weight: 730
   - parent: dummypage
-    name: dummy3
-    url: dummy3
+    name: dummy8
+    url: dummy8
     weight: 730

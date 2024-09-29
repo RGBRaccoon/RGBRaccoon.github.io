@@ -28,20 +28,14 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML    
+    - name: 정보
+      tag: IF
     - name: 프로젝트
       tag: PJ
-    - name: 정보 
-      tag: IF
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: 연구 
+      tag: RE
     - name: 체크리스트
       tag: CL
-    - name: 지도
-      tag: MP
 
 design:
   columns: '1'
