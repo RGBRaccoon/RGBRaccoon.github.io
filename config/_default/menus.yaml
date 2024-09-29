@@ -3,45 +3,95 @@
   #     desired widget in your `content/home/` folder.
   #   The weight parameter defines the order that the links will appear in.
 
-main:
+# main:
+#   - name: Home
+#     url: /
+#     weight: 10
+#   - name: About
+#     url: about/
+#     weight: 20
 
-  - name: About
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+main:
+  # - name: Home
+  #   url: /
+  #   weight: 1
+  - name: me
+    weight: 100
+  - parent : me 
+    name: About
     url: about
     weight: 100
+  - parent : me 
+    name : dummy
+    url : dummy
+    weight: 110
 
-  - name: Research
-    url: publication
+  - name: research
+    weight: 200
+  - parent: research
+    name: stock volatility
+    url: stock_research
+    weight: 210
+  - parent: research 
+    name: dummy
+    url: dummy
+    weight: 220
+
+  - name: project
+    # url: publication
     weight: 300
-  - parent: Research
-    name: Publications
-    url: publication
+  - parent: project
+    name: tetris
+    url: tetris
     weight: 310
-  - parent: Research
-    name: Research Fields
-    url: field
+  - parent: project
+    name: Stock
+    url: Stock
     weight: 320
+  - parent: project
+    name: dummy
+    url: field
+    weight: 330
 
-  - name: Projects
-    url: project
-    weight: 400
+  # - name: Projects
+  #   url: project
+  #   weight: 400
 
-  - name: Inform
+
+  # - name: Coursework
+  #   url: publication
+  #   weight: 500
+
+  - name: checkList
     url: post
     weight: 600
-  - parent: Inform
-    name: Notifications
-    url: notification
+  - parent: checkList
+    name: check list
+    url: work
     weight: 610
-  - parent: Inform
-    name: News
-    url: post
+  - parent: checkList
+    name: dummy2
+    url: dummy2
     weight: 620
-  - parent: Inform
-    name: Event
-    url: event
+  - parent: checkList
+    name: dummy3
+    url: dummy2
     weight: 630
 
 
-  - name: Contact
-    url: contact
+  - name: dummypage
+    url: dummy3
     weight: 700
+  - parent: dummypage
+    name: dummy3
+    url: dummy3
+    weight: 730
+  - parent: dummypage
+    name: dummy3
+    url: dummy3
+    weight: 730
