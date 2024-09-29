@@ -28,14 +28,14 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: 정보
-      tag: IF
     - name: 프로젝트
       tag: PJ
     - name: 연구 
       tag: RE
     - name: 체크리스트
       tag: CL
+    - dummy : 더미들
+      tag: DM
 
 design:
   columns: '1'
