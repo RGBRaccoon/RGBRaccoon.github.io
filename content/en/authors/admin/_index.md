@@ -54,8 +54,8 @@ social:
   #   icon_pack: fab
   #   link: https://instagram.com/geocushen
 # Uncomment below for Github link
-- icon: github
- icon_pack: fab
+  - icon: github
+    icon_pack: fab
     link: https://github.com/RGBRaccoon
 
 # Link to a PDF of your resume/CV from the About widget.
