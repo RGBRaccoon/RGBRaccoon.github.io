@@ -1,8 +1,8 @@
 ---
-title: Cartoon Face Generator
+title: Dummy Page 3
 summary: Write about your project here...
 tags:
-  - CV
+  - DM
 date: 2022-01-01
 external_link: http://github.com
 ---
