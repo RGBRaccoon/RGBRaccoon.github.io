@@ -43,7 +43,7 @@ design:
   flip_alt_rows: false
   background: {}
   spacing: {padding: [5, 0, 5, 0]}
-  border: {color: 'black', width: 1px}
+  border: {color: 'black', width: 3px, style: 'solid'}
   image_size: 'cover'
   image_style: 'border' 
 ---
