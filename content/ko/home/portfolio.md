@@ -42,5 +42,5 @@ design:
   view: grid    
   flip_alt_rows: true
   background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+  spacing: {padding: [5, 0, 5, 0]}
 ---

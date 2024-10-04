@@ -1,8 +1,7 @@
 ---
-title: Cartoon Face Generator
-summary: Write about your project here...
+title: 테트리스 게임
+summary: 테트리스 게임 웹소켓등을 활용한 프로젝트
 tags:
-  - CV
+  - PJ
 date: 2022-01-01
-external_link: http://github.com
 ---

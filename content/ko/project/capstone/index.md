@@ -1,8 +1,7 @@
 ---
-title: Cartoon Face Generator
-summary: Write about your project here...
+title: 캡스톤 디자인
+summary: 캡스톤 디자인 프로젝트
 tags:
-  - CV
+  - PJ
 date: 2022-01-01
-external_link: http://github.com
 ---
