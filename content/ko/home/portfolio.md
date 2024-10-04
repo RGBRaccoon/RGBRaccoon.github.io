@@ -40,9 +40,10 @@ content:
 design:
   columns: '1'
   view: grid    
-  flip_alt_rows: true
+  flip_alt_rows: false
   background: {}
   spacing: {padding: [5, 0, 5, 0]}
   border: {color: 'black', width: 1px}
-  image_size: 'contain'
+  image_size: 'cover'
+  image_style: 'border' 
 ---
