@@ -44,4 +44,5 @@ design:
   background: {}
   spacing: {padding: [5, 0, 5, 0]}
   border: {color: 'black', width: 1px}
+  image_size: 'contain'
 ---
