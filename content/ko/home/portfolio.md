@@ -43,4 +43,5 @@ design:
   flip_alt_rows: true
   background: {}
   spacing: {padding: [5, 0, 5, 0]}
+  border: {color: 'black', width: 1px}
 ---
